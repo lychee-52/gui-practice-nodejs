@@ -19,3 +19,18 @@ make prepare-ejs
     ~~~
     firefox http://localhost:3000/
     ~~~
+
+## 2nd step: Use EJS
+
+ 1. Preparation
+    ~~~
+    npm install ejs
+    ~~~
+ 1. Execution
+    ~~~
+    node app.js
+    ~~~
+ 1. Invoke browser
+    ~~~
+    firefox http://localhost:1234/
+    ~~~
