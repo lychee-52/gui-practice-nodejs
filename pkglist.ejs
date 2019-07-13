@@ -1,0 +1,32 @@
+<html lang="ja">
+<head>
+    <meta http-equiv="content-type"
+        content="text/html; charset=UTF-8">
+    <title><%=title %></title>
+    <style>
+    body { font-size:12pt; color:#006666; }
+    h1 { font-size:18pt; background-color:#AAFFFF; }
+    pre { background-color:#EEEEEE; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="h1"><%=title %></h1>
+    </header>
+
+    <div>
+    <form method="POST">
+    <input type="checkbox" name="req1" <%= cb[0] %>>要求１<br/>
+    <input type="checkbox" name="req2" <%= cb[1] %>>要求２<br/>
+    <input type="checkbox" name="req3" <%= cb[2] %>>要求３<br/>
+    <button type="Submit">決定</button>
+    </form>
+    </div>
+
+    <div>
+        <p><%-content %></p>
+    </div>
+</body>
+ 
+</html>
