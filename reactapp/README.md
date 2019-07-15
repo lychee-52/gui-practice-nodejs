@@ -19,6 +19,12 @@ EOF
 vi index.js
 ~~~
 
+### execution
+
+~~~
+npm start
+~~~
+
 ## Available Scripts
 
 In the project directory, you can run:
